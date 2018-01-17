@@ -1,1 +1,2 @@
 # test_multithread
+  Este codigo tem a finalidade de medir o ganho de velociada a medida que se aumenta o numero de threads utilizada.<br><br> Para a utilização do codigo é necessario que seja instalada a biblioteca pthreads.<br><br>  O codigo possui uma pequena falha que nao consegui resolver, ao realizar o teste com 1000(mil) threads no ambiente Windows o codigo tem a chance de nao funcionar, enquanto no ambiente Linux foi possivel realizar o teste com tal quantidade.
