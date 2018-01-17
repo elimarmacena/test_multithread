@@ -191,7 +191,7 @@ void startMtx() {
 
 
 void fillMtx() {
-	srand(7); //usando a semente 7 pre estabelecida pelo professor na aula
+	srand(7); //seed usada para que seja possivel fazer comparacoes ao usar numeros randomicos 
 	for (int i = 0; i < LINHA_M; i++) {
 		for (int j = 0; j < COL_M; j++) {
 			gMatrix->mat[i][j] = (rand() % (VMAX+1) ); //usado para apenas aceitar os numeros no intervalo informado (expressao tirada de http://c-faq.com/lib/randrange.html)
